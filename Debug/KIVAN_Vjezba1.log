@@ -1,0 +1,5 @@
+﻿  KIVAN_Vjezba1.c
+C:\Users\Karla\Desktop\Strukture Podataka\Vjezba1\KIVAN_Vjezba1\KIVAN_Vjezba1\KIVAN_Vjezba1.c(8,21): warning C4091: 'typedef ': ignored on left of 'popis' when no variable is declared
+C:\Users\Karla\Desktop\Strukture Podataka\Vjezba1\KIVAN_Vjezba1\KIVAN_Vjezba1\KIVAN_Vjezba1.c(82,11): warning C4098: 'UpisStudenata': 'void' function returning a value
+C:\Users\Karla\Desktop\Strukture Podataka\Vjezba1\KIVAN_Vjezba1\KIVAN_Vjezba1\KIVAN_Vjezba1.c(73,7): warning C4101: 'naziv': unreferenced local variable
+  KIVAN_Vjezba1.vcxproj -> C:\Users\Karla\Desktop\Strukture Podataka\Vjezba1\KIVAN_Vjezba1\Debug\KIVAN_Vjezba1.exe
