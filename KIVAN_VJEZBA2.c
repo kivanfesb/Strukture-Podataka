@@ -28,8 +28,8 @@ void Ispis(pozicija);
 int main(void)
 {
 	struct osoba head;
-	char* ime[MAX] = { 0 };
-	char* prezime[MAX] = { 0 };
+	char ime[MAX] = { 0 };
+	char prezime[MAX] = { 0 };
 	int god_rod = 0;
 	pozicija poz_trazi = NULL;
 
