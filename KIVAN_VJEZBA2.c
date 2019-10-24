@@ -21,7 +21,7 @@ struct osoba
 void UnosPocetak(char*, char*, int, pozicija);
 void UnosKraj(char*, char*, int, pozicija);
 pozicija Trazi(char*, pozicija);
-void BrisiElement(char*, char*, int, pozicija);
+void BrisiElement(char*, pozicija);
 pozicija TraziPreth(char*, pozicija);
 void Ispis(pozicija);
 
@@ -47,7 +47,7 @@ int main(void)
 	
 	printf("\nTrazeni element je:%s\t%s\t%d\n", poz_trazi->ime, poz_trazi->prezime, poz_trazi->god_rod);
 
-	BrisiElement("Roko", "Galic", 1999, &head);
+	BrisiElement("Galic", &head);
 
 	printf("\nElementi liste nakon brisanja su:\n");
 	Ispis(&head);
@@ -112,7 +112,7 @@ void Ispis(pozicija p)
 	}
 }
 
-void BrisiElement(char* ime, char* prezime, int god_rod, pozicija p)
+void BrisiElement(char* prezime, pozicija p)
 {
 	pozicija temp;
 	p = TraziPreth(prezime, p);
