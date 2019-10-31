@@ -56,7 +56,7 @@ int main(void)
 	printf("Elementi liste su:\n");
 	Ispis(&head);
 
-	printf("\nTrazeni element je:%s\t%s\%d\n", poz_trazi->ime, poz_trazi->prezime, poz_trazi->god_rod);
+	printf("\nTrazeni element je:%s\t%s\t%d\n", poz_trazi->ime, poz_trazi->prezime, poz_trazi->god_rod);
 
 	BrisiElement("Galic", &head);
 
