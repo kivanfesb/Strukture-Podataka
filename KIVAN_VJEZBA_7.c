@@ -108,6 +108,7 @@ void CitajDat(const char* imedatoteke, pozicija s)
 		Operator(s, y);*/
 
 	}
+	fclose(fp);
 	
 	rez = Pop(s);
 	printf("Rezultat je :%d", rez);
