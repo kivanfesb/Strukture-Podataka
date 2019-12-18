@@ -54,70 +54,11 @@ void CitajDat(const char* imedatoteke, pozicija s)
 	{
 		if (niz[i] >= 48 && niz[i] <= 57)
 		{
-			switch (niz[i])
-			{
-			case 48:
-				Push(s, 0);
-				break;
-
-			case 49:
-				Push(s, 1);
-				break;
-
-			case 50:
-				Push(s, 2);
-				break;
-
-			case 51:
-				Push(s, 3);
-				break;
-			case 52:
-				Push(s, 4);
-				break;
-
-			case 53:
-				Push(s, 5);
-				break;
-			case 54:
-				Push(s, 6);
-				break;
-
-			case 55:
-				Push(s, 7);
-				break;
-			case 56:
-				Push(s, 8);
-				break;
-
-			case 57:
-				Push(s, 9);
-				break;
-
-			}
-
+			Push(s, niz[i]-48);
 		}
 		else
 			Operator(s, niz[i]);
-
-		/*if (sscanf(fp, " %d %c", &x, &y))
-			Push(s, x);
-		else
-		{
-			//sscanf(imedatoteke, "%c", &y);
-			Operator(s, y);
-		}
-
-		/*if (fscanf(fp, " %d", &x) >= 0 && fscanf(fp, " %d", &x) <= 9)
-			Push(s, x);
-
-		else
-			y = (char)x;
-		Operator(s, y);*/
-
-	}
-
-	
-
+	}	
 }
 	
 
