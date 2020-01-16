@@ -236,7 +236,7 @@ poddirektorij Wanted(poddirektorij current, char name[])
 		x = current;
 		current = current->next;
 	}
-	x = current->next;
+	
 	return x;
 }
 
