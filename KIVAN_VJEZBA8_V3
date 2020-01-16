@@ -181,7 +181,7 @@ poddirektorij PopStog(pozicija p)
 	if (p != NULL)
 	{
 		q = p;
-		p->next = p->next->next;
+		p = p->next;
 		adr = q->adresa;
 		free(p);
 		return adr;
